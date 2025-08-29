@@ -173,44 +173,6 @@ SELECCION DE COLOR - DIGITO
 
 Selecciona el color de la 1a banda (digito 1): 2
 ```
-
-## MEJORAS Y ACTUALIZACIONES
-
-### Novedades v2.0
-- Interfaz profesional y limpia sin decoraciones
-- Sistema de navegacion simple e intuitivo
-- Funcionalidades esenciales enfocadas
-- Historial de calculos para seguimiento
-- Sistema de ayuda completo integrado
-- Codigo optimizado y mantenible
-
-### Compatibilidad Mejorada
-- Limpieza de pantalla adaptativa (Windows/Linux/macOS)
-- Validacion robusta de entradas del usuario
-- Manejo de errores mejorado con mensajes claros
-- No requiere caracteres especiales ni UTF-8 avanzado
-
-## DESARROLLO TECNICO
-
-### Archivos del Proyecto
-```
-Proyecto Calculadora Resistencias v2.0
-├── calucaldora _resistencias.py  # Aplicacion principal
-├── README.md                     # Documentacion completa  
-└── GUIA_RAPIDA.txt              # Guia de uso rapido
-```
-
-### Testing y Validacion
-- Valores estandar: Verificado con serie E12/E24
-- Calculos matematicos: Validados contra formulas oficiales  
-- Casos extremos: Probado con valores minimos y maximos
-- Interfaz de usuario: Testing de usabilidad en terminal
-
-### Mantenimiento
-- Codigo modular: Funciones independientes para facil mantenimiento
-- Documentacion inline: Comentarios explicativos en codigo
-- Estructura escalable: Preparado para futuras expansiones
-- Interfaz simple: Facil de usar y entender
   
 ## 8. DESARROLLADOR
 
@@ -219,4 +181,5 @@ Nombre: Dan Ramos Reynaldo
 ## 9. LICENCIA
 
 Distribuido bajo Licencia MIT
+
 
