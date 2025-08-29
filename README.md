@@ -53,8 +53,6 @@ MENU PRINCIPAL
 
 ### Instalacion
 ```bash
-# No requiere instalacion adicional
-# Solo asegurate de tener Python instalado
 python --version
 ```
 
@@ -213,115 +211,7 @@ Proyecto Calculadora Resistencias v2.0
 - Documentacion inline: Comentarios explicativos en codigo
 - Estructura escalable: Preparado para futuras expansiones
 - Interfaz simple: Facil de usar y entender
-
----
-
-## CHANGELOG
-
-### v2.0.0 (Actual)
-- Interfaz profesional simplificada
-- Menu reducido a funciones esenciales
-- Sistema de historial mejorado
-- Ayuda integrada completa
-- Eliminacion de elementos decorativos
-- Codigo optimizado y limpio
-
-### v1.0.0 (Original)
-- Calculo basico por codigo de colores
-- Soporte para 4, 5 y 6 bandas
-- Sugerencias de valores comerciales
-- Combinaciones serie y paralelo
-
----
-
-Desarrollado para facilitar el trabajo con componentes electronicos.
-
-### 🎯 Generador Aleatorio
-- **Práctica interactiva**: Genera resistencias aleatorias
-- **Verificación**: Opción de mostrar respuesta
-- **Todos los tipos**: Soporte para 4, 5 y 6 bandas
-
-## 🏗️ ESTRUCTURA DEL CÓDIGO v2.0
-
-### 🧩 Funciones Principales
-
-#### 🎨 Interfaz y Navegación
-```python
-def mostrar_banner():          # Banner de bienvenida decorativo
-def mostrar_menu_principal():  # Menú principal interactivo
-def limpiar_pantalla():        # Limpieza de pantalla multiplataforma
-def mostrar_colores():         # Selección de colores mejorada
-```
-
-#### 🧮 Cálculos Core
-```python
-def valor_resistencia():              # Cálculo principal de resistencia
-def calcular_potencia():              # Calculadora de potencia eléctrica  
-def valores_comerciales_cercanos():   # Sugerencias comerciales
-def sugerir_combinaciones_paralelo(): # Combinaciones en paralelo
-def sugerir_combinaciones_serie():    # Combinaciones en serie
-```
-
-#### 🔍 Funciones Avanzadas
-```python
-def busqueda_inversa():               # Valor → Colores
-def generar_resistencia_aleatoria():  # Generador para práctica
-def mostrar_historial():             # Historial de cálculos
-def mostrar_tabla_colores_completa(): # Tabla completa de referencia
-```
-
-### 📊 Estructuras de Datos
-
-#### 🎨 Tabla de Colores
-```python
-COLORES = [
-    ("Color", dígito, tolerancia%, coef_térmico),
-    ("Negro", 0, None, None),
-    ("Marrón", 1, 1, 100),
-    # ... más colores
-]
-```
-
-#### 🛒 Valores Comerciales
-Series estándar E12/E24 desde 1Ω hasta 1MΩ
-
-## 💡 EJEMPLOS DE USO
-
-### 🔴🟤🔴🟨 Ejemplo: Resistencia de 4 bandas
-```
-Bandas seleccionadas:
-- 1ª banda: 🔴 Rojo (2)
-- 2ª banda: 🟤 Marrón (1)  
-- 3ª banda: 🔴 Rojo (×10²)
-- 4ª banda: 🟨 Dorado (±5%)
-
-Resultado: 2,100 Ω (2.1 kΩ) ±5%
-Rango: 1,995 Ω - 2,205 Ω
-```
-
-### ⚡ Ejemplo: Cálculo de Potencia
-```
-Entrada: V=12V, R=1000Ω
-Resultado: 
-- Potencia: 0.144 W
-- Corriente: 0.012 A  
-- Potencia comercial sugerida: 0.25 W
-```
-
-### 🎯 Ejemplo: Búsqueda Inversa
-```
-Entrada: "4.7k"
-Resultado: Combinaciones de colores para 4,700 Ω
-- 4 bandas: Amarillo-Violeta-Rojo-Dorado
-- 5 bandas: Amarillo-Violeta-Negro-Rojo-Dorado
-```
-
-## 7. LIMITACIONES
-
-- Solo soporta resistencias de 4, 5 y 6 bandas estándar
-- No calcula colores a partir de un valor numérico
-- Las combinaciones alternativas se limitan a los valores comerciales más comunes
-
+  
 ## 8. DESARROLLADOR
 
 Nombre: Dan Ramos Reynaldo
@@ -329,3 +219,4 @@ Nombre: Dan Ramos Reynaldo
 ## 9. LICENCIA
 
 Distribuido bajo Licencia MIT
+
